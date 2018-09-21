@@ -1,4 +1,4 @@
-== Java 9 and 10 Workshop Requirements
+Java 9 and 10 Workshop Requirements
 
 1) Bring your laptop
 
@@ -6,23 +6,17 @@
 
 Be sure that *java* and *javac* commands are accessible on command prompt.
 
-[source,bash]
-----
 java -version <1>
 
 java version "10.0.1" 2018-04-17
 Java(TM) SE Runtime Environment 18.3 (build 10.0.1+10)
 Java HotSpot(TM) 64-Bit Server VM 18.3 (build 10.0.1+10, mixed mode)
-----
+
 <1> Check java version
 <2> Be sure you have 9+
 
 
-
-[CAUTION]
-====
 We saw in the previous practices, some attendees checked `java -version` but not `javac -version`. Be sure that both print 9+ version.
-====
 
 3) Set JAVA_HOME system variable
 
