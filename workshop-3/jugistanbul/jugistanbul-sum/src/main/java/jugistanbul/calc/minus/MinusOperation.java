@@ -5,6 +5,9 @@ import jugistanbul.calc.core.Operation;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
+/**
+ * @author Taner Diler (taner.diler@gmail.com)
+ */
 public class MinusOperation implements Operation {
     private Number[] values;
 

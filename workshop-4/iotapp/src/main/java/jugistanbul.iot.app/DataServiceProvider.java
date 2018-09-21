@@ -8,6 +8,9 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.ServiceLoader;
 
+/**
+ * @author Taner Diler (taner.diler@gmail.com)
+ */
 public class DataServiceProvider
 {
     private static class SingletonHelper

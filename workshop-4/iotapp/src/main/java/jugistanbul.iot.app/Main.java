@@ -4,6 +4,9 @@ import jugistanbul.service.core.DataService;
 
 import java.util.stream.IntStream;
 
+/**
+ * @author Taner Diler (taner.diler@gmail.com)
+ */
 public class Main {
 
     public static void main(String[] args) {

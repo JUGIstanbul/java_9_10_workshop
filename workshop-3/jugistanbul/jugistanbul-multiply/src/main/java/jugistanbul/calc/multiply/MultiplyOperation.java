@@ -4,6 +4,9 @@ import jugistanbul.calc.core.Operation;
 
 import java.util.Arrays;
 
+/**
+ * @author Taner Diler (taner.diler@gmail.com)
+ */
 public class MultiplyOperation implements Operation {
 
     private Number[] values;

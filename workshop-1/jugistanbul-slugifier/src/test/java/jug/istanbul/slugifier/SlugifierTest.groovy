@@ -4,6 +4,9 @@ import org.junit.Test
 
 import static org.junit.Assert.assertEquals
 
+/**
+ * @author Taner Diler (taner.diler@gmail.com)
+ */
 public class SlugifierTest {
     @Test
     void testRun() {

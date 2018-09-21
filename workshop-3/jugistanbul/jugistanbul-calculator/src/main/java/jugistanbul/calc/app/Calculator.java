@@ -3,6 +3,9 @@ package jugistanbul.calc.app;
 import jugistanbul.calc.minus.MinusOperation;
 import jugistanbul.calc.multiply.MultiplyOperation;
 
+/**
+ * @author Taner Diler (taner.diler@gmail.com)
+ */
 public class Calculator {
     public static void main(String[] args) {
         Number minusResult = new MinusOperation(10, -5, 2, 20).calc();
