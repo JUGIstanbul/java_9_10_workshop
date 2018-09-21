@@ -23,7 +23,7 @@ We saw in the previous practices, some attendees checked `java -version` but not
 
 3) Set JAVA_HOME system variable
 
-Set JAVA_HOME system variable properly or use direct path where it is used. We use it in the generate-image scripts. It is also suggested to not have space in the jdk path like 'Program Files'.
+Set JAVA_HOME system variable properly or use direct path where it is used. 
 
 3) Your favorite IDE
 
