@@ -6,6 +6,9 @@ import java.text.Normalizer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * @author Taner Diler (taner.diler@gmail.com)
+ */
 public class Slugifier {
 
     private static final Logger LOGGER  = Logger.getLogger(Slugifier.class.getName());

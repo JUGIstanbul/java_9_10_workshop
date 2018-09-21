@@ -1,5 +1,8 @@
 package jug.istanbul.module2;
 
+/**
+ * @author Taner Diler (taner.diler@gmail.com)
+ */
 public class Module2 {
 
     public static void main(String[] args) {
