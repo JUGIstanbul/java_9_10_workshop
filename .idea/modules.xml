@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/workshop-1/jugistanbul-slugifier/jugistanbul-slugifier.iml" filepath="$PROJECT_DIR$/workshop-1/jugistanbul-slugifier/jugistanbul-slugifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/workshop.iml" filepath="$PROJECT_DIR$/workshop.iml" />
     </modules>
   </component>
 </project>
