@@ -1,4 +1,4 @@
-package jug.istanbul.module1;
+package jugistanbul.workshop2.module1;
 
 /**
  * @author Taner Diler (taner.diler@gmail.com)

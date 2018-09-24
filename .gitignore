@@ -1,7 +1,9 @@
 .idea
+target/
 **/*.iml
 **/.DS_Store
-target/
+**/mods
+**/out
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup

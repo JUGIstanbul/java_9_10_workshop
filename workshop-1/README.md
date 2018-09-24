@@ -1,8 +1,8 @@
 # WORKSHOP 1
 
-# To compile
+## To compile
 
-You must execute this command under the workshop-1 directory.
+You must execute this command under the `workshop-1` directory.
 
 ```bash
 javac --module-path mods \
@@ -15,9 +15,9 @@ Or
 sh compile.sh
 ```
 
-# To run
+## To run
 
-You must execute this command under the workshop-1 directory.
+You must execute this command under the `workshop-1` directory.
 
 ```bash
 java --module-path mods \

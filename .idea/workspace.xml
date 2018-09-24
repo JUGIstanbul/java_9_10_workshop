@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bfce4aa-ac57-4586-94a8-cd74c4596013" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workshop-1/compile.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workshop-1/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop-2/compile.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop-2/create-jars.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshop-1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-2/jug-istanbul/module-1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-2/jug-istanbul/module-1/src/main/java/jug/istanbul/module1/Module1.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module1/jugistanbul/workshop2/module1/Module1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-2/jug-istanbul/module-1/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module1/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-2/jug-istanbul/module-2/jugistanbul-slugifier.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-2/jug-istanbul/module-2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-2/jug-istanbul/module-2/src/main/java/jug/istanbul/module2/Module2.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module2/jugistanbul/workshop2/module2/Module2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-2/jug-istanbul/module-2/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module2/module-info.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +26,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="compile.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workshop-1/compile.sh">
+      <file leaf-file-name="create-jars.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workshop-2/create-jars.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="3" selection-end-column="54" />
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workshop-1/run.sh">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="89" selection-start-line="1" selection-end-line="2" selection-end-column="89" />
+            <state relative-caret-position="15">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workshop-2/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="495">
+                <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compile.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workshop-2/compile.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -53,6 +80,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Hüseyin Akdoğan &lt;hakdogan75@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -68,6 +100,17 @@
       <list>
         <option value="$PROJECT_DIR$/workshop-1/compile.sh" />
         <option value="$PROJECT_DIR$/workshop-1/run.sh" />
+        <option value="$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module1/jug/istanbul/module1/Module1.java" />
+        <option value="$PROJECT_DIR$/workshop-2/jug-istanbul/module-2/src/main/java/jug/istanbul/module2/Module2.java" />
+        <option value="$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module2/jug/istanbul/module2/Module2.java" />
+        <option value="$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module2/jugistanbul/workshop2/module2/Module2.java" />
+        <option value="$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module1/jugistanbul/workshop2/module1/Module1.java" />
+        <option value="$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module1/module-info.java" />
+        <option value="$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module2/module-info.java" />
+        <option value="$PROJECT_DIR$/workshop-2/jug-istanbul/create-jar.sh" />
+        <option value="$PROJECT_DIR$/workshop-2/compile.sh" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/workshop-2/README.md" />
         <option value="$PROJECT_DIR$/workshop-1/README.md" />
       </list>
     </option>
@@ -109,51 +152,42 @@
             <path>
               <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_9_10_workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="workshop-2" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop-1" type="462c0819:PsiDirectoryNode" />
+              <item name="jugistanbul-slugifier" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_9_10_workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="workshop-2" type="462c0819:PsiDirectoryNode" />
-              <item name="jug-istanbul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_9_10_workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="workshop-2" type="462c0819:PsiDirectoryNode" />
-              <item name="jug-istanbul" type="462c0819:PsiDirectoryNode" />
-              <item name="module-1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_9_10_workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="workshop-2" type="462c0819:PsiDirectoryNode" />
-              <item name="jug-istanbul" type="462c0819:PsiDirectoryNode" />
-              <item name="module-1" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop-1" type="462c0819:PsiDirectoryNode" />
+              <item name="jugistanbul-slugifier" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_9_10_workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop-1" type="462c0819:PsiDirectoryNode" />
+              <item name="jugistanbul-slugifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_9_10_workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop-1" type="462c0819:PsiDirectoryNode" />
+              <item name="jugistanbul-slugifier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_9_10_workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_9_10_workshop" type="462c0819:PsiDirectoryNode" />
               <item name="workshop-3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_9_10_workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="workshop-4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_9_10_workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="workshop-4" type="462c0819:PsiDirectoryNode" />
-              <item name="dataservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_9_10_workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="workshop-4" type="462c0819:PsiDirectoryNode" />
-              <item name="dataservice" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,6 +206,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workshop-2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module2" />
+      <recent name="$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -300,16 +343,23 @@
       <option name="presentableId" value="Default" />
       <updated>1537790888299</updated>
       <workItem from="1537790889892" duration="516000" />
-      <workItem from="1537791436991" duration="1348000" />
+      <workItem from="1537791436991" duration="5887000" />
     </task>
+    <task id="LOCAL-00001" summary="solution for workshop-1">
+      <created>1537799598287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537799598288</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1864000" />
+    <option name="totallyTimeSpent" value="6403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -347,6 +397,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="solution for workshop-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution for workshop-1" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/workshop-1/mods/IstanbulJUG/module-info.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -365,6 +421,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-1/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="89" selection-start-line="1" selection-end-line="2" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/workshop-1/compile.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -372,10 +435,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workshop-1/run.sh">
+    <entry file="file://$PROJECT_DIR$/workshop-1/jugistanbul-slugifier/src/main/java/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="89" selection-start-line="1" selection-end-line="2" selection-end-column="89" />
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-2/jug-istanbul/module-1/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-2/jug-istanbul/module-1/src/main/java/jug/istanbul/module1/Module1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" lean-forward="true" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-2/jug-istanbul/module-2/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-2/jug-istanbul/module-2/src/main/java/jug/istanbul/module2/Module2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module1/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module1/jugistanbul/workshop2/module1/Module1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module2/jugistanbul/workshop2/module2/Module2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-2/jug-istanbul/src/jugistanbul.workshop2.module2/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-2/jug-istanbul/out/jugistanbul.workshop2.module1/module-info.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-2/jug-istanbul/out/jugistanbul.workshop2.module1/jugistanbul/workshop2/module1/Module1.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-2/compile.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-2/create-jars.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop-2/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="495">
+            <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
