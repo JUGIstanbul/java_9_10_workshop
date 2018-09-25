@@ -1,7 +1,6 @@
 package jugistanbul.calc.minus;
 
 import jugistanbul.calc.core.Operation;
-
 import java.util.stream.IntStream;
 
 /**

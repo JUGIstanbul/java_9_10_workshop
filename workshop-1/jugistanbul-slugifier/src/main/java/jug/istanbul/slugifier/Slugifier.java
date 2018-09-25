@@ -65,8 +65,8 @@ public class Slugifier {
             System.out.println("Example : java ... jug.istanbul.slufigier \"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"");
         }
         else{
-            System.out.println("Text :" + args[0]);
-            System.out.println("Slugified Text : " + run(args[0]));
+            System.out.println("Text: " + args[0]);
+            System.out.println("Slugified Text: " + run(args[0]));
         }
     }
 }
