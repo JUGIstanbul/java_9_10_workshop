@@ -18,9 +18,10 @@ public class DataServiceProvider
         public static final DataServiceProvider instance = new DataServiceProvider();
     }
 
-    private static Map<String, DataService> serviceProviders = new HashMap();
-	
+    private static Map<String, DataService> serviceProviders = new HashMap<>();
 
+
+    @SuppressWarnings("unchecked")
     private DataServiceProvider()
     {
         ServiceLoader loader = ServiceLoader.load(DataService.class);

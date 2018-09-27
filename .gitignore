@@ -4,6 +4,7 @@ target/
 **/.DS_Store
 **/mods
 **/out
+**/myJlink
 **/.idea
 pom.xml.tag
 pom.xml.releaseBackup
