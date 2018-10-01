@@ -17,7 +17,7 @@ sh compile.sh
 
 ## To create jars
 
-You must execute this command under the `workshop-2` directory.
+You must execute this commands under the `workshop-2` directory.
 
 ```bash
 jar --create --file module1.jar \
